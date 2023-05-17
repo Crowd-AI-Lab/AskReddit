@@ -1,5 +1,5 @@
 # What Types of Questions Require Conversation to Answer? AskReddit Questions Dataset
-#### This is the Github repo of [What Types of Questions Require Conversation to Answer? A Case Study of AskReddit Questions](https://dl.acm.org/doi/10.1145/3544549.3585600).
+#### This is the GitHub repo of [What Types of Questions Require Conversation to Answer? A Case Study of AskReddit Questions](https://dl.acm.org/doi/10.1145/3544549.3585600).
 
 This dataset is a human-annotated dataset of AskReddit questions aiming to understand **what types of nebulous, open-ended questions can best be answered through conversation**.
 
