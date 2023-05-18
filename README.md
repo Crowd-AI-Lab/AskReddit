@@ -57,13 +57,13 @@ The dataset includes three files: `asking_for_help.csv`, `AskReddit_Turk_raw.csv
 `asking_for_help.csv`\
 The 1,992 questions annotated by the author as asking-for-help questions or not. The two columns are “Text” and “Label” respectively, representing the questions being labeled and the label we provided. "T" indicates "True" and the question **IS** considered as a asking-for-help question, "F" indicates "False" and the question **IS NOT** considered as a asking-for-help question.
 
-| Text                                                              | Label |
-|-------------------------------------------------------------------|-------|
-| What invention made some other inventions ?                       | T     |
-| why is a second called a second, and not a first?                 | T     |
-| What’s your first thought when you get out of bed in the morning? | F     |
-| Which movies is your favorites?                                   | F     |
-| ...                                                               | ...   |
+| ID | Text                                                              | Label |
+|----|-------------------------------------------------------------------|-------|
+| 7  | What invention made some other inventions ?                       | F     |
+| 11 | What’s your first thought when you get out of bed in the morning? | T     |
+| 69 | Which movies is your favorites?                                   | F     |
+| 94 | why is a second called a second, and not a first?                 | F     |
+| ...| ...                                                               | ...   |
 
 `AskReddit_Turk_raw.csv`\
 The 500 questions we sampled to ask MTurk workers to help annotate and the raw data we collected. 9 responses for each question were collected, resulting in 4,500 sets of results. The columns are "ID", "Text", "WorkerID", and "Q1"-"Q8". In order to protect the privacy of MTurk workers, “WorkerID”s are set as randomized numbers and do not represent workers real MTurk ID. Same “workerid” in different columns indicates that the responses were provided by the same worker.
