@@ -24,17 +24,17 @@ The above figure is the conversation score (Q6) distribution over different cate
 
 The above figure is the category distribution shift between all the questions and the ones with higher conversation preference (Conversation score (Q6) $\geq$ 3.5). Categories with the highest increase in percentage are life, mental health, and socializing.
 
-## Asking For Help Questions ##
+## Asking-For-Help Questions ##
 
-We consider **asking for help** questions as questions that can be responded to by a conversational agent, questions that people would ask a single ideal agent and have a finite answer were considered valid. Questions
+We consider **asking-for-help** questions as questions that can be responded to by a conversational agent, questions that people would ask a single ideal agent and have a finite answer were considered valid. Questions
 that were not considered as asking-for-help questions were those based on personal opinions and experiences of the answerer. Questions intended to generate debate and instigate conflict were also excluded.
 
-One of the authors first annotated 1,992 randomly sampled questions from the one-million-reddit-questions dataset to determine **asking for help** questions.
+One of the authors first annotated 1,992 randomly sampled questions from the one-million-reddit-questions dataset to determine **asking-for-help** questions.
 
 A classifier was built based on the annotation and applied to the one-million-reddit-questions dataset. It identified 129,483 asking-for-help questions.
 
 ## Collecting Human Opinions About Questions ##
-From the 129,483 **asking for help** questions identified by the classifier, 500 questions were randomly sampled for human annotation on Amazon Mechanical Turk (MTurk). For each of the 500 questions, we asked nine workers to rate eight aspects using a five-point Likert Scale  ranging from (1) Strongly Disagree to (5) Strongly Agree. The following table shows the eight aspects we used. Options for Q1 ranged
+From the 129,483 **asking-for-help** questions identified by the classifier, 500 questions were randomly sampled for human annotation on Amazon Mechanical Turk (MTurk). For each of the 500 questions, we asked nine workers to rate eight aspects using a five-point Likert Scale  ranging from (1) Strongly Disagree to (5) Strongly Agree. The following table shows the eight aspects we used. Options for Q1 ranged
 from (1) Very Unlikely to (5) Very Likely. Options for Q5 were (1)
 30 minutes or less, (2) 30 minutes-2 hours, (3) 2 hours-half a day,
 (4) half a day-1 day, (5) 1 day or more, and (6) Undoable. Options
