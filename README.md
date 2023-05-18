@@ -59,10 +59,10 @@ The 1,992 questions annotated by the author as asking-for-help questions or not.
 
 | ID | Text                                                              | Label |
 |----|-------------------------------------------------------------------|-------|
-| 7  | What invention made some other inventions ?                       | F     |
-| 11 | What’s your first thought when you get out of bed in the morning? | T     |
+| 7  | What invention made some other inventions ?                       | T     |
+| 11 | What’s your first thought when you get out of bed in the morning? | F     |
 | 69 | Which movies is your favorites?                                   | F     |
-| 94 | why is a second called a second, and not a first?                 | F     |
+| 94 | why is a second called a second, and not a first?                 | T     |
 | ...| ...                                                               | ...   |
 
 `AskReddit_Turk_raw.csv`\
